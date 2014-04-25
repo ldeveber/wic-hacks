@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Example 2 - Tables</title>
+
+        <link rel="stylesheet" href="/css/example.css">
+        <link rel="stylesheet" href="/bootstrap-3.1.1/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="/bootstrap-3.1.1/css/bootstrap-theme.min.css">-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Example 2 - Tables</h1>
+            </div>
+            <p><a href="index.html">&lt; back</a></p>
+
+            <p>Tables are useful for displaying data!</p>
+
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>header</th>
+                            <th>header</th>
+                            <th>header</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">1</td>
+                            <td>data</td>
+                            <td>data</td>
+                            <td>data</td>
+                        </tr>
+                        <tr>
+                            <td>data</td>
+                            <td class="success">success data</td>
+                            <td>data</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td colspan="2" class="info">info data x2</td>
+                            <td>data</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>data</td>
+                            <td>data</td>
+                            <td class="danger">danger data</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <pre><code class="html"><span class="tag">&lt;div class="table-responsive"&gt;</span>
+    <span class="tag">&lt;table class="table table-hover table-bordered"&gt;</span>
+        <span class="tag">&lt;thead&gt;</span>
+            <span class="tag">&lt;tr&gt;</span>
+                <span class="tag">&lt;th&gt;</span>#<span class="tag">&lt;/th&gt;</span>
+                <span class="tag">&lt;th&gt;</span>header<span class="tag">&lt;/th&gt;</span>
+                <span class="tag">&lt;th&gt;</span>header<span class="tag">&lt;/th&gt;</span>
+                <span class="tag">&lt;th&gt;</span>header<span class="tag">&lt;/th&gt;</span>
+            <span class="tag">&lt;/tr&gt;</span>
+        <span class="tag">&lt;/thead&gt;</span>
+        <span class="tag">&lt;tbody&gt;</span>
+            <span class="tag">&lt;tr&gt;</span>
+                <span class="tag">&lt;td rowspan="2"&gt;</span>1<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+            <span class="tag">&lt;/tr&gt;</span>
+            <span class="tag">&lt;tr&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td class="success"&gt;</span>success data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+            <span class="tag">&lt;/tr&gt;</span>
+            <span class="tag">&lt;tr&gt;</span>
+                <span class="tag">&lt;td&gt;</span>2<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td colspan="2" class="info"&gt;</span>info data x2<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+            <span class="tag">&lt;/tr&gt;</span>
+            <span class="tag">&lt;tr&gt;</span>
+                <span class="tag">&lt;td&gt;</span>3<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td&gt;</span>data<span class="tag">&lt;/td&gt;</span>
+                <span class="tag">&lt;td class="danger"&gt;</span>danger data<span class="tag">&lt;/td&gt;</span>
+            <span class="tag">&lt;/tr&gt;</span>
+        <span class="tag">&lt;/tbody&gt;</span>
+    <span class="tag">&lt;/table&gt;</span>
+<span class="tag">&lt;/div&gt;</span></code></pre>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "Example",
+  "version": "1.0.0",
+  "description": "Example app for Bootstrap talk",
+  "author": {
+    "name": "Lesley DeVeber",
+    "email": "lesley.deveber@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.8.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.4.1"
+  }
+}

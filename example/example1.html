@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Example 1 - Buttons, Links &amp; Forms</title>
+
+        <link rel="stylesheet" href="/css/example.css">
+        <link rel="stylesheet" href="/bootstrap-3.1.1/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="/bootstrap-3.1.1/css/bootstrap-theme.min.css">-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/bootstrap-3.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Example 1 - Buttons, Links &amp; Forms</h1>
+            </div>
+            <p><a href="index.html">&lt; back</a></p>
+
+            <p>A lot of basic tags are already styled, like anchors: <a href="#">this is a link!</a></p>
+            <pre><code class="html"><span class="tag">&lt;a href="#"&gt;</span>this is a link!<span class="tag">&lt;/a&gt;</span></code></pre>
+
+            <p>There's also some basic styles for widgets commonly used, like buttons and forms.</p>
+            <div class="panel panel-default">
+                <div class="panel-heading">Example Form</div>
+                <div class="panel-body">
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Check me out
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn-primary">All</button>
+                                <button type="submit" class="btn btn-warning">The</button>
+                                <button type="submit" class="btn btn-danger">Things</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <fieldset disabled>
+                                    <div class="form-group">
+                                        <label for="disabledTextInput">Disabled input</label>
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="disabledSelect">Disabled select menu</label>
+                                        <select id="disabledSelect" class="form-control">
+                                            <option>Disabled select</option>
+                                        </select>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Can't check this
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <pre><code class="html"><span class="tag">&lt;form role="form"&gt;</span>
+    <span class="tag">&lt;div class="row"&gt;</span>
+        <span class="tag">&lt;div class="col-sm-6"&gt;</span>
+            <span class="tag">&lt;div class="form-group"&gt;</span>
+                <span class="tag">&lt;label for="exampleInputEmail1"&gt;</span>Email address<span class="tag">&lt;/label&gt;</span>
+                <span class="tag">&lt;input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+            <span class="tag">&lt;div class="form-group"&gt;</span>
+                <span class="tag">&lt;label for="exampleInputPassword1"&gt;</span>Password<span class="tag">&lt;/label&gt;</span>
+                <span class="tag">&lt;input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+            <span class="tag">&lt;div class="form-group"&gt;</span>
+                <span class="tag">&lt;label for="exampleInputFile"&gt;</span>File input<span class="tag">&lt;/label&gt;</span>
+                <span class="tag">&lt;input type="file" id="exampleInputFile"&gt;</span>
+                <span class="tag">&lt;p class="help-block"&gt;</span>Example block-level help text here.<span class="tag">&lt;/p&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+
+            <span class="tag">&lt;div class="checkbox"&gt;</span>
+                <span class="tag">&lt;label&gt;</span>
+                    <span class="tag">&lt;input type="checkbox"&gt;</span> Check me out
+                <span class="tag">&lt;/label&gt;</span>
+            <span class="tag">&lt;/div&gt;</span>
+            <span class="tag">&lt;button type="submit" class="btn btn-default"&gt;</span>Submit<span class="tag">&lt;/button&gt;</span>
+            <span class="tag">&lt;button type="submit" class="btn btn-primary"&gt;</span>All<span class="tag">&lt;/button&gt;</span>
+            <span class="tag">&lt;button type="submit" class="btn btn-warning"&gt;</span>The<span class="tag">&lt;/button&gt;</span>
+            <span class="tag">&lt;button type="submit" class="btn btn-danger"&gt;</span>Things<span class="tag">&lt;/button&gt;</span>
+        <span class="tag">&lt;/div&gt;</span>
+        <span class="tag">&lt;div class="col-sm-6"&gt;</span>
+            <span class="tag">&lt;fieldset disabled&gt;</span>
+                <span class="tag">&lt;div class="form-group"&gt;</span>
+                    <span class="tag">&lt;label for="disabledTextInput"&gt;</span>Disabled input<span class="tag">&lt;/label&gt;</span>
+                    <span class="tag">&lt;input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input"&gt;</span>
+                <span class="tag">&lt;/div&gt;</span>
+                <span class="tag">&lt;div class="form-group"&gt;</span>
+                    <span class="tag">&lt;label for="disabledSelect"&gt;</span>Disabled select menu<span class="tag">&lt;/label&gt;</span>
+                    <span class="tag">&lt;select id="disabledSelect" class="form-control"&gt;</span>
+                        <span class="tag">&lt;option&gt;</span>Disabled select<span class="tag">&lt;/option&gt;</span>
+                    <span class="tag">&lt;/select&gt;</span>
+                <span class="tag">&lt;/div&gt;</span>
+                <span class="tag">&lt;div class="checkbox"&gt;</span>
+                    <span class="tag">&lt;label&gt;</span>
+                        <span class="tag">&lt;input type="checkbox"&gt;</span> Can't check this
+                    <span class="tag">&lt;/label&gt;</span>
+                <span class="tag">&lt;/div&gt;</span>
+                <span class="tag">&lt;button type="submit" class="btn btn-primary"&gt;</span>Submit<span class="tag">&lt;/button&gt;</span>
+            <span class="tag">&lt;/fieldset&gt;</span>
+        <span class="tag">&lt;/div&gt;</span>
+    <span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/form&gt;</span></code></pre>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+pre {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.tag {
+    color: #d44950;
+}
+
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger {
+    padding: 15px;
+}
